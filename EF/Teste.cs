@@ -12,7 +12,6 @@
 					Email = "contato@K19.com.br"
 				};
 
-				
 				ctx.Editoras.Add(e);
 
 				ctx.SaveChanges();

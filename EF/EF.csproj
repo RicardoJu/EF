@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>EF.Teste</StartupObject>
+    <StartupObject>EF.ListaEditorasComEF</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework">
@@ -53,6 +53,8 @@
   <ItemGroup>
     <Compile Include="Editora.cs" />
     <Compile Include="EFContext.cs" />
+    <Compile Include="InsereEditoraComEF.cs" />
+    <Compile Include="ListaEditorasComEF.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Teste.cs" />
