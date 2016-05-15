@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>EF.RemoveEditoraComEF</StartupObject>
+    <StartupObject>EF.InsereClienteComEF</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework">
@@ -52,8 +52,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AlteraEditoraComEF.cs" />
+    <Compile Include="Cliente.cs" />
     <Compile Include="Editora.cs" />
     <Compile Include="EFContext.cs" />
+    <Compile Include="Endereco.cs" />
+    <Compile Include="InsereClienteComEF.cs" />
     <Compile Include="InsereEditoraComEF.cs" />
     <Compile Include="ListaEditorasComEF.cs" />
     <Compile Include="Program.cs" />
