@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>EF.AdicionaFaturaLigacao</StartupObject>
+    <StartupObject>EF.Consultas</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework">
@@ -56,9 +56,11 @@
     <Compile Include="AdicionaFaturaLigacao.cs" />
     <Compile Include="AdicionaLivroAutor.cs" />
     <Compile Include="AdicionaPedidoConsumidor.cs" />
+    <Compile Include="AdicionaRevista.cs" />
     <Compile Include="AlteraEditoraComEF.cs" />
     <Compile Include="Autor.cs" />
     <Compile Include="Cliente.cs" />
+    <Compile Include="Consultas.cs" />
     <Compile Include="Consumidor.cs" />
     <Compile Include="Departamento.cs" />
     <Compile Include="Editora.cs" />
@@ -77,6 +79,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RemoveEditoraComEF.cs" />
+    <Compile Include="Revista.cs" />
     <Compile Include="Teste.cs" />
   </ItemGroup>
   <ItemGroup>
