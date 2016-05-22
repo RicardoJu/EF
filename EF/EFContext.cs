@@ -6,6 +6,8 @@ namespace EF
 	{
 		public DbSet<Editora> Editoras {get;set;}
 		public DbSet<Cliente> Clientes { get; set; }
+		public DbSet<Estado> Estados { get; set; }
+		public DbSet<Governador> Governadores { get; set; }
 
 		public EFContext()
 		{

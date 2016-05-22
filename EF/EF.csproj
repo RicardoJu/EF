@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>EF.InsereClienteComEF</StartupObject>
+    <StartupObject>EF.AdicionaEstadoGovernador</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework">
@@ -51,11 +51,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdicionaEstadoGovernador.cs" />
     <Compile Include="AlteraEditoraComEF.cs" />
     <Compile Include="Cliente.cs" />
     <Compile Include="Editora.cs" />
     <Compile Include="EFContext.cs" />
     <Compile Include="Endereco.cs" />
+    <Compile Include="Estado.cs" />
+    <Compile Include="Governador.cs" />
     <Compile Include="InsereClienteComEF.cs" />
     <Compile Include="InsereEditoraComEF.cs" />
     <Compile Include="ListaEditorasComEF.cs" />
