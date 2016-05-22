@@ -8,6 +8,12 @@ namespace EF
 		public DbSet<Cliente> Clientes { get; set; }
 		public DbSet<Estado> Estados { get; set; }
 		public DbSet<Governador> Governadores { get; set; }
+		public DbSet<Funcionario> Funcionarios { get; set; }
+		public DbSet<Departamento> Departamentos { get; set; }
+		public DbSet<Consumidor> Consumidores { get; set; }
+		public DbSet<Pedido> Pedidos { get; set; }
+		public DbSet<Autor> Autores { get; set; }
+		public DbSet<Livro> Livros { get; set; }
 
 		public EFContext()
 		{
